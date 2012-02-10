@@ -1,8 +1,12 @@
 Listy::Application.routes.draw do
+  
   get "pages/home"
 
   get "pages/contact"
 
+  #right now I only have new but i need this for the form???
+  #get "users/new"
+  resources :users
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
